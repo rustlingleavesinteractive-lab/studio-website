@@ -1,0 +1,41 @@
+/* Apply to the whole page */
+/* body {
+  background-color: #D2691E; 
+  color: #2C1A0C;           
+} */
+
+/* Optional: tweak main content container if Blowfish uses a card/box style */
+/* main {
+  background: transparent; 
+} */
+
+.main-menu {
+  position:relative;
+}
+
+.main-menu-backdrop {
+  width: 100vw;
+  margin-left:calc(-50vw + 50%); /* cancel parent centering */
+  position: absolute;
+  height: 100%;
+  z-index:-1;
+}
+.main-menu-backdrop {
+  background-color: rgba(var(--color-neutral-800),1);
+}
+
+.main-menu-backdrop:is(.dark *) {
+  background-color: rgba(var(--color-neutral),1);
+}
+
+.main-menu {
+  color: rgba(var(--color-neutral),1);
+}
+
+.main-menu:is(.dark *) {
+  color:rgba(var(--color-neutral-800),1);
+}
+
+.main-menu-backdrop.with-bg {
+    background-image: url('/images/header-bg.jpg');
+}
