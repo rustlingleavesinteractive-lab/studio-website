@@ -1,7 +1,6 @@
 baseURL = 'https://timpoliquin.github.io/company-website-example/'
 languageCode = 'en-us'
 title = 'Rustling Leaves Games'
-theme = 'blowfish'
 buildFuture = true
 
 [params]
