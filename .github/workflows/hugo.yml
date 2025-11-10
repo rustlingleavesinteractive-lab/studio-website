@@ -17,12 +17,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0   # ensures full history, useful for Hugo Modules
-          submodules: recursive  # if using git submodules for themes
-
-      - name: Setup Go (required for Hugo Modules)
-        uses: actions/setup-go@v4
-        with:
-          go-version: '1.21'
 
       - name: Setup Hugo (extended version)
         uses: peaceiris/actions-hugo@v2
@@ -30,19 +24,23 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      - name: Cache Hugo modules
-        uses: actions/cache@v3
-        with:
-          path: /tmp/hugo_cache
-          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
-          restore-keys: |
-            ${{ runner.os }}-hugomod-
-
-      - name: Initialize Hugo Modules
-        run: hugo mod get -u
-
+      - name: Verify vendored modules
+        run: |
+          echo "=== Checking for vendored modules ==="
+          ls -la _vendor/ || echo "WARNING: No _vendor directory found!"
+          echo "=== Checking for icon files ==="
+          find _vendor -name "instagram.svg" -o -name "*.svg" | head -20
+          echo "=== Module configuration ==="
+          cat module.toml || echo "No module.toml"
+          echo "=== Hugo config ==="
+          cat hugo.toml || cat config.toml || cat hugo.yaml
+          echo "=== Hugo environment ==="
+          hugo env
+          echo "=== Hugo module info ==="
+          hugo mod graph || echo "No module graph available"
+          
       - name: Build site
-        run: hugo --minify
+        run: hugo --minify --ignoreVendorPaths=none --verbose
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

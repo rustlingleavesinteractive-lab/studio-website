@@ -3,6 +3,10 @@ languageCode = 'en-us'
 title = 'Rustling Leaves Games'
 buildFuture = true
 
+[module]
+  [[module.imports]]
+    path = "github.com/nunocoracao/blowfish/v2"
+
 [params]
   defaultTheme = "auto"
   showReadingTime = true
