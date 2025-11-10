@@ -21,25 +21,25 @@
 [[main]]
   name = "Instagram"
   parent = "Contact"
-  pre = "Instagram"
+  pre = "instagram"
   url = "https://www.instagram.com/rustlingleavesgames/"
 
 [[main]]
   name = "Facebook"
   parent = "Contact"
-  pre = "Facebook"
+  pre = "facebook"
   url = "https://www.facebook.com/people/Rustling-Leaves-Games/61583138965806/"
 
 [[main]]
   name = "LinkedIn"
   parent = "Contact"
-  pre = "LinkedIn"
+  pre = "linkedin"
   url = "https://www.linkedin.com/company/rustling-leaves-games/posts/?feedView=all"
 
 [[main]]
   name = "Email"
   parent = "Contact"
-  pre = "Email"
+  pre = "email"
   url = "mailto://rustlingleavesinteractive@gmail.com"
 
 
@@ -48,20 +48,20 @@
 
 [[footer]]
   name = "Instagram"
-  pre = "Instagram"
+  pre = "instagram"
   url = "https://www.instagram.com/rustlingleavesgames/"
 
 [[footer]]
   name = "Facebook"
-  pre = "Facebook"
+  pre = "facebook"
   url = "https://www.facebook.com/people/Rustling-Leaves-Games/61583138965806/"
 
 [[footer]]
   name = "LinkedIn"
-  pre = "LinkedIn"
+  pre = "linkedin"
   url = "https://www.linkedin.com/company/rustling-leaves-games/posts/?feedView=all"
 
 [[footer]]
   name = "Email"
-  pre = "Email"
+  pre = "email"
   url = "mailto://rustlingleavesinteractive@gmail.com"
