@@ -24,23 +24,8 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      - name: Verify vendored modules
-        run: |
-          echo "=== Checking for vendored modules ==="
-          ls -la _vendor/ || echo "WARNING: No _vendor directory found!"
-          echo "=== Checking for icon files ==="
-          find _vendor -name "instagram.svg" -o -name "*.svg" | head -20
-          echo "=== Module configuration ==="
-          cat module.toml || echo "No module.toml"
-          echo "=== Hugo config ==="
-          cat hugo.toml || cat config.toml || cat hugo.yaml
-          echo "=== Hugo environment ==="
-          hugo env
-          echo "=== Hugo module info ==="
-          hugo mod graph || echo "No module graph available"
-          
       - name: Build site
-        run: hugo --minify --ignoreVendorPaths=none --verbose
+        run: hugo --minify
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
