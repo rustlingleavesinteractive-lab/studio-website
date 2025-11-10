@@ -22,7 +22,8 @@ html {
 
 .prose {
   --tw-prose-body: rgba(var(--color-typography), 1);
-  --tw-prose-captions: rgba(var(--color-typography), 1)
+  --tw-prose-captions: rgba(var(--color-typography), 1);
+  --tw-prose-bold: rgba(var(--color-secondary-accent), 1);
 }
 
 body {
