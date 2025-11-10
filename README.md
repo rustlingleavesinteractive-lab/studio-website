@@ -6,6 +6,12 @@ https://timpoliquin.github.io/company-website-example/
 - [Go](https://go.dev/doc/install)
 - [Hugo (extended)](https://gohugo.io/getting-started/quick-start/)
 
+### Adding Content
+
+This site is powered by Hugo and the Blowfish theme.
+- [Hugo](https://gohugo.io/)
+- [Blowfish](https://blowfish.page/)
+
 ## Build
 ### Local Build Instructions
 To run the server locally:

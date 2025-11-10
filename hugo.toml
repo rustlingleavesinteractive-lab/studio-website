@@ -2,41 +2,30 @@ baseURL = 'https://timpoliquin.github.io/company-website-example/'
 languageCode = 'en-us'
 title = 'Rustling Leaves Games'
 theme = 'blowfish'
+buildFuture = true
 
 [params]
   defaultTheme = "auto"
   showReadingTime = true
   mainSections = ["posts"]
-  showBackToTop = true
   description = "We’re a small indie game studio with one big beLEAF, that every game should tell a story."
   logo = "images/logo.png"
-  colorScheme="fire"
+  colorScheme="brand"
+  enableSearch = false
+
+[params.homepage]
+
+
+[params.footer]
+  showAppearanceSwitcher = false
+  showMenu = true
+  showThemeAttribution = false
+  showScrollToTop = true
+
+[menus.footer]
+  [[menu.social]]
+    name="Social"
+  
 
 [params.assets]
   customCSS = ["css/custom.css"]
-
-[menu]
-  [[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 1
-
-  [[menu.main]]
-    name = "Devlog"
-    url = "/devlog/"
-    weight = 2
-
-  [[menu.main]]
-    name = "Games"
-    url = "/games/"
-    weight = 3
-
-  [[menu.main]]
-    name = "Press"
-    url = "/press/"
-    weight = 4
-
-  [[menu.main]]
-    name = "Contact"
-    url = "/contact/"
-    weight = 5

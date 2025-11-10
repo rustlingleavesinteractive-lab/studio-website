@@ -1,0 +1,67 @@
+[[main]]
+  name = "About Us"
+  url = "/about/"
+  weight = 1
+
+[[main]]
+  name = "Creations"
+  url = "/creations/"
+  weight = 2
+
+[[main]]
+  name = "Devlog"
+  url = "/devlog/"
+  weight = 3
+
+[[main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 4
+
+[[main]]
+  name = "Instagram"
+  parent = "Contact"
+  pre = "Instagram"
+  url = "https://www.instagram.com/rustlingleavesgames/"
+
+[[main]]
+  name = "Facebook"
+  parent = "Contact"
+  pre = "Facebook"
+  url = "https://www.facebook.com/people/Rustling-Leaves-Games/61583138965806/"
+
+[[main]]
+  name = "LinkedIn"
+  parent = "Contact"
+  pre = "LinkedIn"
+  url = "https://www.linkedin.com/company/rustling-leaves-games/posts/?feedView=all"
+
+[[main]]
+  name = "Email"
+  parent = "Contact"
+  pre = "Email"
+  url = "mailto://rustlingleavesinteractive@gmail.com"
+
+
+
+
+
+[[footer]]
+  name = "Instagram"
+  pre = "Instagram"
+  url = "https://www.instagram.com/rustlingleavesgames/"
+
+[[footer]]
+  name = "Facebook"
+  pre = "Facebook"
+  url = "https://www.facebook.com/people/Rustling-Leaves-Games/61583138965806/"
+
+[[footer]]
+  name = "LinkedIn"
+  pre = "LinkedIn"
+  url = "https://www.linkedin.com/company/rustling-leaves-games/posts/?feedView=all"
+
+[[footer]]
+  name = "Email"
+  pre = "Email"
+  url = "mailto://rustlingleavesinteractive@gmail.com"
