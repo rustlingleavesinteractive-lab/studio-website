@@ -12,7 +12,7 @@ buildFuture = true
   showReadingTime = true
   mainSections = ["posts"]
   description = "We’re a small indie game studio with one big beLEAF, that every game should tell a story."
-  logo = "images/logo.png"
+  logo = "images/logos/logo.png"
   colorScheme="brand"
   enableSearch = false
 

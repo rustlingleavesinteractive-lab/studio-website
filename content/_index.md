@@ -2,5 +2,9 @@
 title: "Rustling Leaves Games - Home"
 showHeader: false
 ---
-
-![Rustling Leaves Games Logo](images/logo-with-text.png "We’re a small indie game studio with one big beLEAF, that every game should tell a story.")
+{{<figure
+   src="images/logos/logo-animated-brand.gif"
+   caption="We’re a small indie game studio with one big beLEAF, that every game should tell a story."
+   alt="Rustling Leaves Games Logo"
+   class="util-m-center"
+>}}

@@ -84,3 +84,8 @@ main .text-neutral-500 {
 main a.text-neutral-800 {
   color: rgba(var(--color-brand), 1)
 }
+
+.util-m-center {
+  margin-left: auto;
+  margin-right: auto;
+}
