@@ -1,5 +1,7 @@
 ## Company Website
-https://timpoliquin.github.io/company-website-example/
+https://www.rustlingleavesgames.com
+
+Domain managed by: [namecheap](https://ap.www.namecheap.com/)
 
 ### Prerequisites
 - Git
@@ -24,6 +26,6 @@ hugo server --disableFastRender
 ```
 
 ### GitHub Actions
-The site is deployed to the `gh-pages-live` branch of the repository when commits are pushed to `master` and the build completes successfully.
+The site is deployed to the `live-web` branch of the repository when commits are pushed to `main` and the build completes successfully.
 
 To modify the build, check `.github/workflows/hugo.yml`
