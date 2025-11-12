@@ -3,7 +3,7 @@ name: Deploy Hugo site to GitHub Pages
 on:
   push:
     branches:
-      - master
+      - main
 
 permissions:
   contents: write  # ✅ allows pushing to branches
@@ -32,4 +32,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          publish_branch: gh-pages-live
+          publish_branch: live-web
+          cname: www.rustlingleavesgames.com   # 👈 ensures CNAME file is deployed
