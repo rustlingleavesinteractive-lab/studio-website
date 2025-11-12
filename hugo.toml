@@ -1,4 +1,4 @@
-baseURL = 'https://timpoliquin.github.io/company-website-example/'
+baseURL = "https://www.rustlingleavesgames.com/"
 languageCode = 'en-us'
 title = 'Rustling Leaves Games'
 buildFuture = true
