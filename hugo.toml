@@ -1,7 +1,7 @@
 baseURL = "https://www.rustlingleavesgames.com/"
 languageCode = 'en-us'
 title = 'Rustling Leaves Games'
-buildFuture = true
+buildFuture = false
 
 [module]
   [[module.imports]]
