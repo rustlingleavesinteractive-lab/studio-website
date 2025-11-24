@@ -11,7 +11,7 @@
 
 @font-face {
   font-family: 'Utopia Std Regular';
-  src: url('/company-website-example/fonts/utopia-std.otf') format('opentype');
+  src: url('/fonts/utopia-std.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,11 +24,15 @@ html {
   --tw-prose-body: rgba(var(--color-typography), 1);
   --tw-prose-captions: rgba(var(--color-typography), 1);
   --tw-prose-bold: rgba(var(--color-secondary-accent), 1);
+  --tw-prose-headings: rgba(var(--color-secondary-accent), 1);
+  --tw-prose-hr: rgba(var(--color-typography), 1);
 }
 
 body {
   background-color: rgba(var(--color-background), 1);
+  overflow-x: hidden;
 }
+
 
 header {
   color: rgba(var(--color-brand), 1);
@@ -67,10 +71,6 @@ h1.text-neutral-900 {
 .main-menu .menuhide .rounded-xl {
   background-color: rgba(var(--color-neutral), 1);
   min-width: calc(var(--spacing) * 50);
-}
-
-footer nav {
-  padding: calc(var(--spacing) * 5) 0;
 }
 
 main {

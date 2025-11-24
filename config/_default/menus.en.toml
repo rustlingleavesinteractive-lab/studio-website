@@ -65,3 +65,7 @@
   name = "Email"
   pre = "email"
   url = "mailto://rustlingleavesinteractive@gmail.com"
+
+[[legal]]
+  name = "Intellectual Property Protection"
+  url = "/ip-and-rights/"

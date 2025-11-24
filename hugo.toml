@@ -15,6 +15,7 @@ buildFuture = false
   logo = "images/logos/logo.png"
   colorScheme="brand"
   enableSearch = false
+  copyright = "© { year } Rustling Leaves Games. All rights reserved."
 
 [params.homepage]
 
@@ -24,6 +25,7 @@ buildFuture = false
   showMenu = true
   showThemeAttribution = false
   showScrollToTop = true
+  showCopyright = true
 
 [menus.footer]
   [[menu.social]]
