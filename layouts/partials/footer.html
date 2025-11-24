@@ -1,5 +1,6 @@
-<footer id="site-footer" class="py-10 print:hidden relative">
+<footer id="site-footer" class="print:hidden relative">
   <div class="backdrop absolute"></div>
+  <div class="py-10">
   {{/* Footer menu */}}
   {{ if .Site.Params.footer.showMenu | default true }}
     {{ if .Site.Menus.footer }}
@@ -34,9 +35,11 @@
       </nav>
     {{ end }}
   {{ end }}
+  <hr />
   <div class="flex items-center justify-between">
     {{/* Copyright */}}
     {{ if .Site.Params.footer.showCopyright | default true }}
+    <div class="py-2">
       <p class="text-sm">
         {{- with replace .Site.Params.copyright "{ year }" now.Year }}
           {{ . | markdownify }}
@@ -46,6 +49,32 @@
           {{ .Site.Params.Author.name | markdownify }}
         {{- end }}
       </p>
+    </div>
+    {{ end }}
+
+    {{ if .Site.Menus.legal }}
+    {{ $navClass := printf "flex flex-row text-sm font-medium text-neutral-500 dark:text-neutral-400 py-2" }}
+    {{ $ulClass := printf "flex list-none" }}
+    {{ $liClass := printf "flex mb-1 text-end sm:mb-0 sm:me-7 sm:last:me-0" }}
+    <nav class="{{ $navClass }}">
+      <ul class="{{ $ulClass }}">
+        {{ range .Site.Menus.legal }}
+        <li class=" {{ $liClass }}">
+          <a
+                  class=" decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center"
+                  href="{{ .URL }}"
+                  title="{{ .Title }}">
+            {{ if .Pre }}
+            <span {{ if and .Pre .Name }}class="mr-1"{{ end }}>
+                    {{ partial "icon.html" .Pre }}
+                  </span>
+            {{ end }}
+            {{ .Name | markdownify }}
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+    </nav>
     {{ end }}
 
     {{/* Theme attribution */}}
@@ -60,6 +89,7 @@
         {{ i18n "footer.powered_by" (dict "Hugo" $hugo "Theme" $blowfish) | safeHTML }}
       </p>
     {{ end }}
+  </div>
   </div>
   {{ if not .Site.Params.disableImageZoom | default true }}
     <script>
@@ -80,4 +110,5 @@
   {{ if templates.Exists "partials/extend-footer.html" }}
     {{ partialCached "extend-footer.html" . }}
   {{ end }}
+  </div>
 </footer>
