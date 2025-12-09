@@ -1,7 +1,18 @@
 [[main]]
   name = "About Us"
-  url = "/about/"
   weight = 1
+
+[[main]]
+  name = "Our Story"
+  url = "/about/"
+  parent = "About Us"
+  weight = 1
+
+[[main]]
+  name = "Join Us"
+  url = "/join-us/"
+  parent = "About Us"
+  weight = 2
 
 [[main]]
   name = "Creations"

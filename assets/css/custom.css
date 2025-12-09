@@ -26,6 +26,7 @@ html {
   --tw-prose-bold: rgba(var(--color-secondary-accent), 1);
   --tw-prose-headings: rgba(var(--color-secondary-accent), 1);
   --tw-prose-hr: rgba(var(--color-typography), 1);
+  --tw-prose-bullets: rgba(var(--color-typography), 1);
 }
 
 body {
