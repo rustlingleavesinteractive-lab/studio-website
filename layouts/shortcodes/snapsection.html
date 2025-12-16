@@ -1,0 +1,16 @@
+<div class="snap-section-outer"
+     style="
+        {{ with .Get "bg" }}background-image: url('{{ . }}');{{ end }}
+    ">
+    <section class="snap-section">
+        <div class="snap-section-inner container mx-auto prose snap-animate">
+            {{ with .Get "heading" }}
+            <h2 class="snap-section-heading">{{ . }}</h2>
+            {{ end }}
+
+            <div class="snap-section-body">
+                {{ .Inner | markdownify }}
+            </div>
+        </div>
+    </section>
+</div>

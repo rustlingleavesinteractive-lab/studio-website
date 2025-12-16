@@ -1,0 +1,61 @@
+:root {
+    --site-header-height: 100px;
+}
+/* 1. The viewport is the scroll container */
+html {
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+/* 2. Remove scroll-snap from .snap-page */
+.snap-page {
+    margin-top:0;
+    scroll-snap-type: none;
+    width: 100vw;
+}
+
+.snap-section-outer {
+    width: 100%;
+    position: relative;
+}
+
+/* 3. Each section is a snap point */
+.snap-section {
+    scroll-snap-align: start;
+    scroll-margin-top: var(--site-header-height);
+    min-height: calc(100vh - var(--site-header-height));
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.snap-section-inner {
+    padding:2rem;
+    border:1px solid rgba(var(--color-secondary-accent), .5);
+    background-color: rgba(var(--color-secondary-accent), .1);
+    border-radius: var(--radius-md);
+}
+
+/* 4. Remove Blowfish padding that breaks alignment */
+.snap-page main,
+.snap-page .container {
+    margin: 0 !important;
+}
+
+/* Start hidden and slightly shifted */
+.snap-animate {
+    opacity: 0;
+    transform: translateX(-30px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+/* When visible */
+.snap-animate.in-view {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+footer {
+    scroll-snap-align: end;
+}

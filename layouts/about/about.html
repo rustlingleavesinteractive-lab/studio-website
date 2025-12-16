@@ -1,0 +1,25 @@
+{{ define "main" }}
+{{ $snap := resources.Get "css/snap.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $snap.Permalink }}">
+
+<div class="snap-page">
+    {{ .Content }}
+</div>
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const elements = document.querySelectorAll(".snap-animate");
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("in-view");
+                }
+            });
+        }, {
+            threshold: 0.3
+        });
+
+        elements.forEach(el => observer.observe(el));
+    });
+</script>
+{{ end }}
