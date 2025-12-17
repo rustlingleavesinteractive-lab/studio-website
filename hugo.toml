@@ -39,6 +39,7 @@ buildFuture = false
   [[menu.social]]
     name="Social"
   
-
-[params.assets]
-  customCSS = ["css/custom.css"]
+[markup]
+ [markup.goldmark]
+  [markup.goldmark.renderer]
+    unsafe = true

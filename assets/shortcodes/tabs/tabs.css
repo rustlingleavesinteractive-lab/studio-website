@@ -1,0 +1,118 @@
+.tabs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* or min-height: 100vh if you want full viewport */
+}
+
+.tabs-header {
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.tabs-header button {
+    flex: 1 1 0;
+    text-align: center;
+    background-color: rgba(var(--color-brand), 0);
+    border: none;
+    padding: calc(var(--spacing) * 4);
+    cursor: pointer;
+    font-weight: 800;
+    white-space: nowrap;
+    border-radius: var(--radius-md) var(--radius-md) 0 0;
+    color: rgba(var(--color-secondary-accent), 1);
+    transition: background-color .4s ease-in-out;
+    border-bottom: 1px solid rgba(var(--color-brand), .2);
+    font-size: var(--text-lg);
+}
+
+.tabs-header button:hover {
+    background-color: rgba(var(--color-brand), .08);
+}
+
+.tabs-header button.tab-active {
+    background-color: rgba(var(--color-brand), .1);
+    border: 1px solid rgba(var(--color-brand), .2);
+    border-bottom: none;
+}
+
+.tabs-body {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.tab-panel {
+    display: none;
+    min-height: 200px;
+    flex: 1 1 auto;
+    overflow-y: auto; /* so long content scrolls */
+    flex-direction: column; /* keep content vertical */
+    padding: calc(var(--spacing) * 8);
+    border-radius: 0 0 var(--radius-md) var(--radius-md);
+    border: 1px solid rgba(var(--color-brand), .2);
+    border-top: none;
+    background-color: rgba(var(--color-brand), 0);
+    transition: background-color .4s ease-in-out;
+}
+
+.tab-panel + .tab-panel {
+    display: none;
+}
+
+.tab-panel.tab-active {
+    display: flex !important; /* allow centering inside */
+    background-color: rgba(var(--color-brand), .1);
+}
+
+/* Hidden on desktop */
+.tab-panel-mobile-title {
+    display: none;
+}
+
+.tab-panel-content {
+    flex: 1 1 auto; /* take available space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* vertical centering */
+}
+
+.tab-active .tab-panel-content {
+    animation: tabFadeSlide .4s ease-in-out;
+}
+
+@keyframes tabFadeSlide {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Visible on mobile */
+@media (max-width: 852px) {
+    .tabs-header {
+        display: none;
+    }
+
+    .tab-panel {
+        display: block !important; /* show all panels */
+        border-radius: var(--radius-md);
+        border: 1px solid rgba(var(--color-brand), .2);
+        background-color: rgba(var(--color-brand), .1);
+        margin-bottom: 1rem;
+    }
+
+    .tab-panel.tab-active {
+        background-color: rgba(var(--color-brand), .1);
+    }
+
+    .tab-panel-mobile-title {
+        display: block;
+        font-weight: 800;
+        margin-bottom: 0.5rem;
+        color: rgba(var(--color-secondary-accent), 1);
+    }
+}
