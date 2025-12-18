@@ -1,0 +1,8 @@
+{{ $css := resources.Get "shortcodes/grid.css" | resources.Minify | resources.Fingerprint }}
+<link href="{{ $css.RelPermalink }}" rel="stylesheet">
+
+{{ $cols := .Get "cols" | default "3" }}
+
+<div class="grid" data-cols="{{ $cols }}">
+    {{ .Inner }}
+</div>

@@ -1,0 +1,15 @@
+{{ $css := resources.Get "shortcodes/hero.css" | resources.Minify | resources.Fingerprint }}
+<link href="{{ $css.RelPermalink }}" rel="stylesheet">
+<div class="hero">
+    {{ with .Get "title" }}
+    <div class="hero-title container mx-auto prose">
+        <h2 class="text-4xl">
+            {{ . }}
+        </h2>
+    </div>
+    {{ end }}
+    <div class="hero-subtitle container mx-auto prose">
+        {{ $inner := printf "{{< lead >}}%s{{< /lead >}}" (.Inner | htmlEscape) }}
+        {{ $.Page.RenderString $inner }}
+    </div>
+</div>

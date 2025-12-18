@@ -1,0 +1,75 @@
+/* Mobile-first: always 1 column */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+/* Tablet: allow up to 2–3 columns depending on cols parameter */
+@media (min-width: 1024px) {
+    .grid[data-cols="2"] {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid[data-cols="3"] {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .grid[data-cols="4"] {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* still 3 on small tablets */
+    .grid[data-cols="5"] {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Desktop: allow full column count */
+@media (min-width: 1280px) {
+    .grid[data-cols="2"] {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid[data-cols="3"] {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .grid[data-cols="4"] {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .grid[data-cols="5"] {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+/* Grid item styling */
+.grid-item {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Default variant: minimal, clean */
+.grid-item--default {
+    background: none;
+    padding: 0;
+    border-radius: 0;
+}
+
+/* Card variant: styled container */
+.grid-item--card {
+    background: rgba(var(--color-brand), .15);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: var(--shadow-sm, 0 1px 3px rgba(0, 0, 0, 0.1));
+}
+
+.grid-item-title {
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+}
+
+.grid-item-body {
+    flex: 1;
+}

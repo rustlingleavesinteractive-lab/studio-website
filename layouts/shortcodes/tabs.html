@@ -1,0 +1,25 @@
+{{/* Dummy reference so Hugo treats this as a wrapper shortcode */}}
+{{ $unused := .Inner }}
+
+{{ $tabsCSS := resources.Get "shortcodes/tabs/tabs.css" | resources.Minify | resources.Fingerprint }}
+<link href="{{ $tabsCSS.RelPermalink }}" rel="stylesheet">
+
+{{ $titles := .Scratch.Get "tab-titles" }}
+{{ $bodies := .Scratch.Get "tab-bodies" }}
+
+<div class="tabs" data-tabs>
+    <div class="tabs-header">
+        {{ range $titles }}
+        <button data-tab-button>{{ . }}</button>
+        {{ end }}
+    </div>
+
+    <div class="tabs-body">
+        {{ range $bodies }}
+        <div class="tab-panel" data-tab-panel>{{ . | safeHTML }}</div>
+        {{ end }}
+    </div>
+</div>
+
+{{ .Scratch.Delete "tab-titles" }}
+{{ .Scratch.Delete "tab-bodies" }}

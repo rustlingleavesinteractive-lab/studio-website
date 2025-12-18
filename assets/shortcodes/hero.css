@@ -1,0 +1,24 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    margin: calc(var(--spacing) * 32) 0;
+}
+
+.hero-title {
+    padding: calc(var(--spacing) * 8);
+}
+
+.hero .hero-title h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.hero .hero-subtitle {
+    text-align: center;
+}
+
+@media (max-width: 852px) {
+    .hero {
+        margin: calc(var(--spacing) * 16) 0;
+    }
+}

@@ -1,0 +1,11 @@
+{{ $variant := .Get "variant" | default "default" }}
+
+<div class="grid-item grid-item--{{ $variant }}">
+    {{ with .Get "title" }}
+    <div class="grid-item-title">{{ . }}</div>
+    {{ end }}
+
+    <div class="grid-item-body">
+        {{ .Inner | markdownify }}
+    </div>
+</div>

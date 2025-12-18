@@ -1,0 +1,5 @@
+{{ $css := resources.Get "shortcodes/row.css" | resources.Minify | resources.Fingerprint }}
+<link href="{{ $css.RelPermalink }}" rel="stylesheet">
+<div class="row">
+    {{ .Inner }}
+</div>

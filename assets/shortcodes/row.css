@@ -1,0 +1,23 @@
+.row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    align-items: stretch;
+}
+
+.row-block {
+    background: rgba(var(--color-secondary-accent), .25);
+    padding: 1.5rem;
+    border-radius: var(--radius-md);
+    display: flex;
+    flex-direction: column;
+}
+
+.row-block-title {
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+}
+
+.row-block-body {
+    flex: 1;
+}

@@ -1,0 +1,9 @@
+<div class="row-block">
+    {{ with .Get "title" }}
+    <div class="row-block-title">{{ . }}</div>
+    {{ end }}
+
+    <div class="row-block-body">
+        {{ .Inner | markdownify }}
+    </div>
+</div>
