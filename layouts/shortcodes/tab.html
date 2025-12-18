@@ -14,7 +14,7 @@
 {{ $body := printf `
 <div class="tab-panel-content">
     <div class="tab-panel-mobile-title">%s</div>
-    %s
+    <div class="tab-panel-body">%s</div>
 </div>
 ` $title (.Inner | markdownify) }}
 

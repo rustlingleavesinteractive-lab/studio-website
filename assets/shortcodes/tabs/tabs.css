@@ -8,7 +8,6 @@
 .tabs-header {
     display: flex;
     width: 100%;
-    overflow-x: auto;
 }
 
 .tabs-header button {
@@ -75,6 +74,7 @@
     flex-direction: column;
     justify-content: center; /* vertical centering */
     color: var(--color-card-body);
+    font-size: var(--text-lg);
 }
 
 .tab-active .tab-panel-content {
@@ -90,6 +90,12 @@
     }
 }
 
+@media (max-width: 1080px) {
+    .tabs-header button {
+        white-space: wrap;
+    }
+}
+
 /* Visible on mobile */
 @media (max-width: 852px) {
     .tabs-header {
@@ -100,8 +106,14 @@
         display: block !important; /* show all panels */
         border-radius: var(--radius-md);
         margin-bottom: 1rem;
-        background-color: var(--color-card-background);
-        border: 1px solid var(--color-card-border);
+        background-color: inherit;
+        border: none;
+        padding: 0;
+        transition: none;
+    }
+
+    .tab-panel.tab-active {
+        background-color: inherit;
     }
 
     .tab-active .tab-panel-content {
@@ -112,7 +124,17 @@
         display: block;
         font-weight: 800;
         font-size: var(--text-xl);
-        margin-bottom: 0.5rem;
-        color: var(--color-card-title);
+        color: var(--color-card-title-alt);
+        background-color: var(--color-card-background-alt);
+        border-radius: var(--radius-md) var(--radius-md) 0 0;
+        padding: calc(var(--spacing) * 2) calc(var(--spacing) * 4);
+    }
+
+    .tab-panel-content .tab-panel-body {
+        background-color: var(--color-card-background);
+        border-radius: 0 0 var(--radius-md) var(--radius-md);
+        border: 1px solid var(--color-card-border);
+        border-top: none;
+        padding: calc(var(--spacing) * 2) calc(var(--spacing) * 4);
     }
 }
