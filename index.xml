@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rustling Leaves Games - Home on Rustling Leaves Games</title><link>https://www.rustlingleavesgames.com/</link><description>Recent content in Rustling Leaves Games - Home on Rustling Leaves Games</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2025 Rustling Leaves Games. All rights reserved.</copyright><lastBuildDate>Fri, 30 Dec 2366 19:42:43 -0500</lastBuildDate><atom:link href="https://www.rustlingleavesgames.com/index.xml" rel="self" type="application/rss+xml"/><item><title>General Application</title><link>https://www.rustlingleavesgames.com/join-us/general-application/</link><pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate><guid>https://www.rustlingleavesgames.com/join-us/general-application/</guid><description>&lt;p&gt;&lt;a
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rustling Leaves Games - Home on Rustling Leaves Games</title><link>https://www.rustlingleavesgames.com/</link><description>Recent content in Rustling Leaves Games - Home on Rustling Leaves Games</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© 2026 Rustling Leaves Games. All rights reserved.</copyright><lastBuildDate>Fri, 30 Dec 2366 19:42:43 -0500</lastBuildDate><atom:link href="https://www.rustlingleavesgames.com/index.xml" rel="self" type="application/rss+xml"/><item><title>General Application</title><link>https://www.rustlingleavesgames.com/join-us/general-application/</link><pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate><guid>https://www.rustlingleavesgames.com/join-us/general-application/</guid><description>&lt;p&gt;&lt;a
 href="../"&gt;&amp;lt; Back to Listing&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Rustling Leaves Games is always excited to meet passionate, creative, and driven developers
 who want to help us shape thoughtful, emotionally grounded interactive experiences. If you
@@ -40,4 +40,68 @@ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-
 supporting the team with technical solutions across the project. You’ll work closely with
 designers, writers, and other developers to implement features such as dialog systems,
 inventory systems (if needed), save/load functionality, UI systems, and other gameplay tools
-that help shape our world.&lt;/p&gt;</description></item></channel></rss>
+that help shape our world.&lt;/p&gt;</description></item><item><title/><link>https://www.rustlingleavesgames.com/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.rustlingleavesgames.com/about/</guid><description>&lt;link href="https://www.rustlingleavesgames.com/shortcodes/hero.min.0ca40096662c8d102071b92b33d2149c5c3f9ff3269aaeb95206ea520e1e97b7.css" rel="stylesheet"&gt;
+&lt;div class="hero"&gt;
+&lt;div class="hero-title container mx-auto prose"&gt;
+&lt;h2 class="text-4xl"&gt;
+About Us
+&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class="hero-subtitle container mx-auto prose"&gt;
+&lt;div class="lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl"&gt;
+Together, we build heartfelt, immersive experiences that let players step into unfamiliar lives, explore deeper truths,
+and feel part of something bigger.
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;link href="https://www.rustlingleavesgames.com/shortcodes/tabs/tabs.min.24b6a86d67c8cb7373e2a72b14448d6b6c5bda8056f456a54e00e455385bfe1a.css" rel="stylesheet"&gt;
+&lt;div class="tabs" data-tabs&gt;
+&lt;div class="tabs-header"&gt;
+&lt;button data-tab-button&gt;How It All Started&lt;/button&gt;
+&lt;button data-tab-button&gt;The Worlds We Create&lt;/button&gt;
+&lt;button data-tab-button&gt;The Feels We Stir&lt;/button&gt;
+&lt;button data-tab-button&gt;A United Team With A Vision&lt;/button&gt;
+&lt;/div&gt;
+&lt;div class="tabs-body"&gt;
+&lt;div class="tab-panel" data-tab-panel&gt;
+&lt;div class="tab-panel-content"&gt;
+&lt;div class="tab-panel-mobile-title"&gt;How It All Started&lt;/div&gt;
+&lt;div class="tab-panel-body"&gt;Our studio started with a simple belief: game development shouldn’t fall on a single person.
+We wanted to build something together, sharing responsibility, learning from one another, and leaning into our
+collective strengths.
+This studio was created for people who are willing to learn, step outside their comfort zone, and try something new.
+That mindset shapes how we work and grow.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="tab-panel" data-tab-panel&gt;
+&lt;div class="tab-panel-content"&gt;
+&lt;div class="tab-panel-mobile-title"&gt;The Worlds We Create&lt;/div&gt;
+&lt;div class="tab-panel-body"&gt;We believe games aren’t just played, they’re lived in.
+When players slow down, look closer, and take a moment to listen to the world, to the soundtrack, to the quiet details,
+we want them to feel the care we’ve poured into every part of the experience.
+We aim to create that spark of discovery, the “oh, I get it now” moment, like the final piece of a mystery falling into
+place.
+That’s the kind of game we strive to make.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="tab-panel" data-tab-panel&gt;
+&lt;div class="tab-panel-content"&gt;
+&lt;div class="tab-panel-mobile-title"&gt;The Feels We Stir&lt;/div&gt;
+&lt;div class="tab-panel-body"&gt;Our games are deeply human at their core.
+We want players to feel connected to our stories in their own way.
+Our worlds are built from familiar places, familiar feelings, small moments that carry weight, shaped by time and lived
+history.
+Step into our characters’ shoes and experience something recognizable, even in the extraordinary.
+We want you to think about our game years later…&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="tab-panel" data-tab-panel&gt;
+&lt;div class="tab-panel-content"&gt;
+&lt;div class="tab-panel-mobile-title"&gt;A United Team With A Vision&lt;/div&gt;
+&lt;div class="tab-panel-body"&gt;We are a collective force, shaped by many hands and hearts walking the same path.
+Directions change, but the vision remains steady.
+We are a team that cares deeply, builds intentionally, and lives honestly.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item></channel></rss>
