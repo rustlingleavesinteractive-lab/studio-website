@@ -1,2 +1,6 @@
 {{ $custom := resources.Get "css/custom.css" | css.Sass | resources.Minify }}
-<link rel="stylesheet" href="{{ $custom.RelPermalink }}">
+<link href="{{ $custom.RelPermalink }}" rel="stylesheet">
+{{/* Tabs JS */}}
+
+{{ $tabsJS := resources.Get "shortcodes/tabs/tabs.js" | resources.Minify | resources.Fingerprint }}
+<script defer src="{{ $tabsJS.RelPermalink }}"></script>

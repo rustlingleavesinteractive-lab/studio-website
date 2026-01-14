@@ -1,0 +1,22 @@
+{{/* Ensure slices exist */}}
+{{ if not (.Parent.Scratch.Get "tab-titles") }}
+{{ .Parent.Scratch.Set "tab-titles" (slice) }}
+{{ end }}
+
+{{ if not (.Parent.Scratch.Get "tab-bodies") }}
+{{ .Parent.Scratch.Set "tab-bodies" (slice) }}
+{{ end }}
+
+{{/* Add this tab */}}
+{{ $title := .Get "title" }}
+
+{{/* Wrap the body with a mobile-only title */}}
+{{ $body := printf `
+<div class="tab-panel-content">
+    <div class="tab-panel-mobile-title">%s</div>
+    <div class="tab-panel-body">%s</div>
+</div>
+` $title (.Inner | markdownify) }}
+
+{{ .Parent.Scratch.Add "tab-titles" $title }}
+{{ .Parent.Scratch.Add "tab-bodies" $body }}
