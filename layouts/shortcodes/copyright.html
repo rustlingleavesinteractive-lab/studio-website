@@ -1,0 +1,7 @@
+{{- with replace .Site.Params.copyright "{ year }" now.Year }}
+{{ . | markdownify }}
+{{- else }}
+&copy;
+{{ now.Format "2006" }}
+{{ .Site.Params.Author.name | markdownify }}
+{{- end }}
