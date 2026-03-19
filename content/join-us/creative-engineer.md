@@ -1,8 +1,8 @@
 ﻿---
-title: "Creative Engineer (Unreal Engine) - Volunteer Role"
+title: "2D Character/Environment Concept Artist - Volunteer Role"
 layout: "simple"
 date: "2025-12-09"
-tags: ["recruitment", "development", "unreal-engine"]
+tags: ["recruitment", "development", "unreal-engine", "concept art", "concept", "art"]
 weight: 2
 showDate: false
 ---
