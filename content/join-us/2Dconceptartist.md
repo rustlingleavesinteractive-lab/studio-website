@@ -10,7 +10,7 @@ showDate: false
 
 Rustling Leaves Games is an indie studio focused on creating emotional, narrative-driven
 interactive experiences. We’re a small, collaborative team building thoughtful and atmospheric
-games, and we’re looking for **2D Concept Artists (Characters & Environments)** to help define the mood, tone, and visuals of our environments.
+games, and we’re looking for **2D Concept Artists (Characters & Environments)** to help define the mood, tone, and visuals of our environments and characters.
 
 ## Role Overview
 As a 2D Concept Artist, you will be responsible for creating visually compelling character and/or environment designs
