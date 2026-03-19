@@ -1,5 +1,5 @@
 ---
-title: "About Us"
+title: "Vision Statement"
 layout: "simple"
 ---
 
