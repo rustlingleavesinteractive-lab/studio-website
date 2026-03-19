@@ -2,7 +2,7 @@
 layout: "simple"
 ---
 
-{{< hero title="About Us" >}}
+{{< hero title="Our Vision" >}}
 Together, we build heartfelt, immersive experiences that let players step into unfamiliar lives, explore deeper truths,
 and feel part of something bigger.
 {{< /hero >}}
