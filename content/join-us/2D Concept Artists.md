@@ -1,5 +1,5 @@
 ﻿---
-title: "2D Concept Artists (Characters & Environments) - Volunteer Role"
+title: "We are not currently accepting applications for this role - Thank You"
 layout: "simple"
 date: "2025-12-09"
 tags: ["recruitment", "development", "unreal-engine", "concept art", "concept", "art"]
@@ -10,7 +10,7 @@ showDate: false
 
 Rustling Leaves Games is an indie studio focused on creating emotional, narrative-driven
 interactive experiences. We’re a small, collaborative team building thoughtful and atmospheric
-games, and we’re looking for **2D Concept Artists (Characters & Environments)** to help define the mood, tone, and visuals of our environments.
+games.
 
 ## Role Overview
 We’re looking for versatile 2D Concept Artists to help shape the visual identity of our world—both its characters 
