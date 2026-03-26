@@ -1,5 +1,5 @@
 ﻿---
-title: "Technical Engineer (Unreal Engine) - Volunteer Role"
+title: "We are currently not accepting applications for this role. - Thank You"
 layout: "simple"
 date: "2025-12-09"
 tags: ["recruitment", "development", "unreal-engine"]
@@ -10,8 +10,7 @@ showDate: false
 
 Rustling Leaves Games is an indie studio focused on creating emotional, narrative-driven
 interactive experiences. We’re a small, collaborative team building thoughtful and atmospheric
-games, and we’re looking for a **Technical Engineer** to help bring our systems and gameplay
-foundations to life.
+games.
 
 ## Role Overview
 As a Technical Engineer, you’ll be responsible for developing core game systems and
