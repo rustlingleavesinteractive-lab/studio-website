@@ -1,0 +1,52 @@
+content/creations/project-vertex/_index.md
+  s_15c9ebf20edd30::t_29124f8487410a 1-9,11-49
+  h_2afe91ba523f0a 10
+content/devlog/devlog-1-introduction/_index.md
+  s_15c9ebf20edd30::t_be82c72c9bbaf3 1-10
+  h_2afe91ba523f0a 11-30
+content/creations/_index.md
+  s_15c9ebf20edd30::t_0026e648424c54 3
+content/devlog/devlog-2-trotson-radio/_index.md
+  s_15c9ebf20edd30::t_d32afd17cc000e 1-10
+  h_2afe91ba523f0a 11-14,16,18-20,22-24,26-35
+  s_2ef35f1cc53e41::t_189cbe4ce330ce 25
+  s_2ef35f1cc53e41::t_3994910913e8ad 15
+  s_2ef35f1cc53e41::t_267cd13605f367 17
+  s_2ef35f1cc53e41::t_a13b4b42d2d684 21
+content/devlog/devlog-3-narrative-design/_index.md
+  s_15c9ebf20edd30::t_73bb2a7ca368d5 1-11
+config/_default/menus.en.toml
+  s_2ef35f1cc53e41::t_0aec5e0ce66fd3 39-55
+  s_15c9ebf20edd30::t_935d4c63c163f9 19-30
+content/press-kit/_index.md
+  s_15c9ebf20edd30::t_749940ba154d31 1-7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.8",
+  "base_commit_sha": "9c162975266f4403278c8f62f1e3476b5f526350",
+  "prompts": {},
+  "humans": {
+    "h_2afe91ba523f0a": {
+      "author": "Constantin Balan <35816870+ConstantinBalan@users.noreply.github.com>"
+    }
+  },
+  "sessions": {
+    "s_15c9ebf20edd30": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "60e0071f-04bf-4b9c-9394-edfc2ec142a2",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Constantin Balan <35816870+ConstantinBalan@users.noreply.github.com>"
+    },
+    "s_2ef35f1cc53e41": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "dc28d109-897c-45df-af7c-433e42dda60f",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Constantin Balan <35816870+ConstantinBalan@users.noreply.github.com>"
+    }
+  }
+}
