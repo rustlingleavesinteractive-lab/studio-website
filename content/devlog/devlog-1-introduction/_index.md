@@ -8,6 +8,14 @@ tags: ["devlog", "project-vertex"]
 weight: 1
 ---
 
+<div class="centered-figure" style="text-align: center;">
+
+{{< figure src="images/project-vertex-color.png">}}
+
+</div>
+<style>.centered-figure img { margin-left: auto; margin-right: auto; }</style>
+
+
 Dearest Community, 
 
 Rustling Leaves Games was built on a vision, a dream where people can come together and build something beautiful. A group of like-minded individuals with full-time jobs, willing to pour sweat and tears into building a game that proves we are so much more than a number tossed to the side of a stack of papers on a recruiter's desk or a name at the start of a gut-wrenching Human Resources layoff email. Our vision is a community-built game called Project Vertex.
@@ -25,6 +33,27 @@ Our team is currently in the concept phase, building prototypes and community, w
 
 We can’t wait to share more with you soon!
 
-Sincerely,
+Sincerely, 
 
 Rustling Leaves Games
+
+<div class="img-row">
+
+{{< figure src="images/materials.png" >}}
+
+{{< figure src="images/greybox.png" >}}
+
+</div>
+<style>
+.img-row { display: flex; gap: 1rem; justify-content: center; align-items: flex-start; flex-wrap: wrap; }
+.img-row figure { flex: 1 1 0; margin: 0; }
+.img-row img { width: 100%; height: auto; }
+</style>
+
+<div class="centered-figure" style="text-align: center;">
+
+{{< figure src="images/dialogue-system.png" >}}
+
+</div>
+
+***Note: This is a work in progress - visuals and gameplay subject to change.***
