@@ -16,12 +16,41 @@
 
 [[main]]
   name = "Creations"
-  url = "/creations/"
+  weight = 2
+
+[[main]]
+  name = "Project Vertex"
+  url = "/creations/project-vertex/"
+  parent = "Creations"
+  weight = 1
+
+[[main]]
+  name = "Press Kit"
+  url = "/press-kit/"
+  parent = "Creations"
   weight = 2
 
 [[main]]
   name = "Devlog"
   url = "/devlog/"
+  weight = 3
+
+[[main]]
+  name = "Dev Log 1: Introduction"
+  url = "/devlog/devlog-1-introduction/"
+  parent = "Devlog"
+  weight = 1
+
+[[main]]
+  name = "Dev Log 2: Trotson Radio"
+  url = "/devlog/devlog-2-trotson-radio/"
+  parent = "Devlog"
+  weight = 2
+
+[[main]]
+  name = "Dev Log 3: Narrative Design"
+  url = "/devlog/devlog-3-narrative-design/"
+  parent = "Devlog"
   weight = 3
 
 [[main]]
