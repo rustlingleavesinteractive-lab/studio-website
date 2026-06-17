@@ -1,0 +1,35 @@
+content/devlog/devlog-1-introduction/_index.md
+  h_2afe91ba523f0a 11-18,39,59
+  s_b5333f5d5a4ec1::t_e3cc494b811f6d 40-57
+content/creations/project-vertex/_index.md
+  s_b5333f5d5a4ec1::t_07aa70c33612f4 26
+  h_2afe91ba523f0a 12,19,21,28,30-31,33-46,48
+  s_b5333f5d5a4ec1::t_9226ce4511e724 14
+  s_b5333f5d5a4ec1::t_ef861a224b94ac 47
+  s_b5333f5d5a4ec1::t_ba0fc578c6b597 10,15
+content/devlog/devlog-2-trotson-radio/_index.md
+  s_b5333f5d5a4ec1::t_8bc2948ec8404a 34-46
+  h_2afe91ba523f0a 25-27,29-33,63-64
+  s_b5333f5d5a4ec1::t_68ccf2bfb62f9b 11-17
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.8",
+  "base_commit_sha": "c2b5f117987068628994eec4f38f1ea4657a563c",
+  "prompts": {},
+  "humans": {
+    "h_2afe91ba523f0a": {
+      "author": "Constantin Balan <35816870+ConstantinBalan@users.noreply.github.com>"
+    }
+  },
+  "sessions": {
+    "s_b5333f5d5a4ec1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "a9ee802f-7952-43da-9e97-ed65a5699180",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Constantin Balan <35816870+ConstantinBalan@users.noreply.github.com>"
+    }
+  }
+}
