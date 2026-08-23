@@ -4,7 +4,7 @@ layout: "simple"
 date: "2026-06-11"
 showAuthor: false
 showDate: true
-tags: ["devlog", "project-vertex", "trotson-radio", "music"]
+tags: ["devlog", "dear-yesterday", "trotson-radio", "music"]
 weight: 2
 ---
 
@@ -17,7 +17,7 @@ weight: 2
 
 Dearest Community, 
 
-We are so excited to announce the Trotson game mechanic, which will be featured in our upcoming game, Project Vertex. The Trotson radio is a handheld radio offering a variety of sounds from radio stations and mixtapes to let players rest their minds, sit back, and enjoy music. As you play the game, you will also discover mixtapes scattered across the world, each telling stories hidden behind powerful songs and even more powerful memories. 
+We are so excited to announce the Trotson game mechanic, which will be featured in our upcoming game, Dear Yesterday. The Trotson radio is a handheld radio offering a variety of sounds from radio stations and mixtapes to let players rest their minds, sit back, and enjoy music. As you play the game, you will also discover mixtapes scattered across the world, each telling stories hidden behind powerful songs and even more powerful memories. 
 
 France, during the late 1970s and early 1980s, was a wild time for radio. In a world where censorship was used to silence people, **Radio Libres** (Radio Pirates) began to emerge. Fearless pirates who weren’t afraid of hacking into the airwaves to convey a simple message, to break through the commercialized and monopolized radio, and give the airwaves music back to the people! Something that we small indie developers know all too well: Game development isn't an easy industry to enter, so we are paving our own way.
 
@@ -25,7 +25,7 @@ One of the radio stations we will feature in our game is called **PêcheFM**. Th
 
 We invite both new and established artists to submit their music to our game and share their sound with the world. Join the pirate revolution! *Vive la révolution!*
 
-It is our belief as a game studio built by volunteers, indie artists, and musicians alike to share in the spirit of celebrating what you’ve built as a musician and to resonate that in our own game. 
+It is our belief as a game studio built by a Rev-Share team, indie artists, and musicians alike to share in the spirit of celebrating what you’ve built as a musician and to resonate that in our own game. 
 
 Sincerely, 
 

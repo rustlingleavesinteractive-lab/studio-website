@@ -17,7 +17,7 @@ As a 2D Concept Artist, you will be responsible for creating visually compelling
 that define the look and feel of our world. Your work will serve as the foundation for 3D production, ensuring assets are
 both artistically strong and technically translatable, while supporting the project's overall narrative and emotional tone.
 
-**This is a volunteer role, but we strive to create a professional, supportive, and
+**This is a Rev-Share role, but we strive to create a professional, supportive, and
 growth-focused environment.**
 
 ---
@@ -53,7 +53,7 @@ growth-focused environment.**
 
 ## Our Commitment
 
-At Rustling Leaves Games, we are a volunteer-based, non-commission studio, but that doesn’t
+At Rustling Leaves Games, we are a Rev-Share-based studio, but that doesn’t
 limit our ambition or our dedication to the people who join us. Our mission is to help every team
 member grow professionally in the video game industry while contributing to meaningful,
 story-driven experiences.

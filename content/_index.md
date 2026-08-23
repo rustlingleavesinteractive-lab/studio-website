@@ -8,3 +8,7 @@ showHeader: false
    alt="Rustling Leaves Games Logo"
    class="util-m-center"
 >}}
+
+{{< button href="/creations/dear-yesterday/" >}}
+Discover our first game — Dear Yesterday
+{{< /button >}}

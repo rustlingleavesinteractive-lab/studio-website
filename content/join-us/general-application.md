@@ -29,7 +29,7 @@ helps us understand your strengths and creative voice.
 grow into.
 
 ## Our Commitment
-At Rustling Leaves Games, we are a volunteer-based, non-commission studio, but that doesn’t
+At Rustling Leaves Games, we are a Rev-Share-based studio, but that doesn’t
 limit our ambition or our dedication to the people who join us. Our mission is to help every team
 member grow professionally in the video game industry while contributing to meaningful,
 story-driven experiences.

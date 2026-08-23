@@ -15,12 +15,18 @@
   weight = 2
 
 [[main]]
+  name = "Collaborations"
+  url = "/collaborations/"
+  parent = "About Us"
+  weight = 3
+
+[[main]]
   name = "Creations"
   weight = 2
 
 [[main]]
-  name = "Project Vertex"
-  url = "/creations/project-vertex/"
+  name = "Dear Yesterday"
+  url = "/creations/dear-yesterday/"
   parent = "Creations"
   weight = 1
 
@@ -54,6 +60,18 @@
   weight = 3
 
 [[main]]
+  name = "Dev Log 4"
+  url = "/devlog/devlog-4/"
+  parent = "Devlog"
+  weight = 4
+
+[[main]]
+  name = "Dev Log 5"
+  url = "/devlog/devlog-5/"
+  parent = "Devlog"
+  weight = 5
+
+[[main]]
   name = "Contact"
   url = "/contact/"
   weight = 4
@@ -77,10 +95,22 @@
   url = "https://www.linkedin.com/company/rustling-leaves-games/posts/?feedView=all"
 
 [[main]]
+  name = "Twitch"
+  parent = "Contact"
+  pre = "twitch"
+  url = "https://www.twitch.tv/rustling_leaves_games"
+
+[[main]]
+  name = "YouTube"
+  parent = "Contact"
+  pre = "youtube"
+  url = "https://www.youtube.com/@RustlingLeavesGames"
+
+[[main]]
   name = "Email"
   parent = "Contact"
   pre = "email"
-  url = "mailto://rustlingleavesinteractive@gmail.com"
+  url = "mailto://hello@rustlingleavesgames.com"
 
 
 
@@ -102,9 +132,19 @@
   url = "https://www.linkedin.com/company/rustling-leaves-games/posts/?feedView=all"
 
 [[footer]]
+  name = "Twitch"
+  pre = "twitch"
+  url = "https://www.twitch.tv/rustling_leaves_games"
+
+[[footer]]
+  name = "YouTube"
+  pre = "youtube"
+  url = "https://www.youtube.com/@RustlingLeavesGames"
+
+[[footer]]
   name = "Email"
   pre = "email"
-  url = "mailto://rustlingleavesinteractive@gmail.com"
+  url = "mailto://hello@rustlingleavesgames.com"
 
 [[legal]]
   name = "Intellectual Property Protection"

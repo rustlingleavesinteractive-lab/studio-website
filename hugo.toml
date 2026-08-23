@@ -10,7 +10,7 @@ buildFuture = false
 [params]
   defaultTheme = "auto"
   showReadingTime = true
-  mainSections = ["posts"]
+  mainSections = ["devlog"]
   description = "We’re a small indie game studio with one big beLEAF, that every game should tell a story."
   logo = "images/logos/logo.png"
   colorScheme="brand"
@@ -19,6 +19,10 @@ buildFuture = false
   copyright = "© { year } Rustling Leaves Games. All rights reserved."
 
 [params.homepage]
+  showRecent = true
+  showRecentItems = 3
+  showMoreLink = true
+  showMoreLinkDest = "/devlog/"
 
 
 [params.footer]
