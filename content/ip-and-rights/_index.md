@@ -85,7 +85,7 @@ respective owners and is licensed accordingly.
 
 If you believe any content on this website infringes on intellectual property rights—or if you have questions about
 using our content—please contact us at:
-**Email**: [rustlingleavesinteractive@gmail.com](mailto://rustlingleavesinteractive@gmail.com)
+**Email**: [hello@rustlingleavesgames.com](mailto://hello@rustlingleavesgames.com)
 
 ---
 

@@ -1,5 +1,5 @@
 ﻿---
-title: "Technical Engineer (Unreal Engine) - Volunteer Role"
+title: "Technical Engineer (Unreal Engine) - Rev-Share Role"
 layout: "simple"
 date: "2025-12-09"
 tags: ["recruitment", "development", "unreal-engine"]
@@ -20,7 +20,7 @@ designers, writers, and other developers to implement features such as dialog sy
 inventory systems (if needed), save/load functionality, UI systems, and other gameplay tools
 that help shape our world.
 
-**This is a volunteer role, but we strive to create a professional, supportive, and
+**This is a Rev-Share role, but we strive to create a professional, supportive, and
 growth-focused environment.**
 
 ---
@@ -54,7 +54,7 @@ growth-focused environment.**
 
 ## Our Commitment
 
-At Rustling Leaves Games, we are a volunteer-based, non-commission studio, but that doesn’t
+At Rustling Leaves Games, we are a Rev-Share-based studio, but that doesn’t
 limit our ambition or our dedication to the people who join us. Our mission is to help every team
 member grow professionally in the video game industry while contributing to meaningful,
 story-driven experiences.
