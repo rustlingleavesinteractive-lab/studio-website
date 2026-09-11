@@ -1,0 +1,24 @@
+content/about/index.md
+  s_85d256af6459b1::t_881275fe0c54ae 5,7,9,11-13,15,17,19-21,23,25,27
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "adef0cab453d32ea07cc6db5b6d8e99cafe1a864",
+  "prompts": {},
+  "humans": {
+    "h_2afe91ba523f0a": {
+      "author": "Constantin Balan <35816870+ConstantinBalan@users.noreply.github.com>"
+    }
+  },
+  "sessions": {
+    "s_85d256af6459b1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "36dbdc4b-9cf3-489e-99e2-a11fd27d6750",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Constantin Balan <35816870+ConstantinBalan@users.noreply.github.com>"
+    }
+  }
+}
