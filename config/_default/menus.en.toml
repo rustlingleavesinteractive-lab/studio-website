@@ -60,13 +60,13 @@
   weight = 3
 
 [[main]]
-  name = "Dev Log 4"
+  name = "Dev Log 4: Concept Art"
   url = "/devlog/devlog-4/"
   parent = "Devlog"
   weight = 4
 
 [[main]]
-  name = "Dev Log 5"
+  name = "Dev Log 5: Naming the Game"
   url = "/devlog/devlog-5/"
   parent = "Devlog"
   weight = 5

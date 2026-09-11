@@ -1,44 +1,32 @@
 ---
+title: "About Us"
 layout: "simple"
 ---
 
-{{< hero title="Our Vision" >}}
-Together, we build heartfelt, immersive experiences that let players step into unfamiliar lives, explore deeper truths,
-and feel part of something bigger.
-{{< /hero >}}
+**Together, we build heartfelt, immersive experiences that let players step into unfamiliar lives, explore deeper truths, and feel part of something bigger.**
 
-{{< tabs >}}
+---
 
-{{< tab title="How It All Started" >}}
-Our studio started with a simple belief: game development shouldn’t fall on a single person.
-We wanted to build something together, sharing responsibility, learning from one another, and leaning into our
-collective strengths.
-This studio was created for people who are willing to learn, step outside their comfort zone, and try something new.
-That mindset shapes how we work and grow.
-{{< /tab >}}
+## 01: How It All Started
 
-{{< tab title="The Worlds We Create" >}}
-We believe games aren’t just played, they’re lived in.
-When players slow down, look closer, and take a moment to listen to the world, to the soundtrack, to the quiet details,
-we want them to feel the care we’ve poured into every part of the experience.
-We aim to create that spark of discovery, the “oh, I get it now” moment, like the final piece of a mystery falling into
-place.
-That’s the kind of game we strive to make.
-{{< /tab >}}
+Our studio started with one BIG idea: what if we built an indie game studio of artists, developers, and musicians who work on a shared project where transparency and flexibility aren't optional-they're the standard. A studio where moms, recent layoffs, veterans, and entry-level people who are willing to learn together, make decisions together, and share responsibility can lean on each other and build on our collective strengths. This studio was created for people who are willing to learn, step outside their comfort zone, and try something new while being supported by an entire team. 
 
-{{< tab title="The Feels We Stir" >}}
-Our games are deeply human at their core.
-We want players to feel connected to our stories in their own way.
-Our worlds are built from familiar places, familiar feelings, small moments that carry weight, shaped by time and lived
-history.
-Step into our characters’ shoes and experience something recognizable, even in the extraordinary.
-We want you to think about our game years later…
-{{< /tab >}}
+---
 
-{{< tab title="A United Team With A Vision" >}}
-We are a collective force, shaped by many hands and hearts walking the same path.
-Directions change, but the vision remains steady.
-We are a team that cares deeply, builds intentionally, and lives honestly.
-{{< /tab >}}
+## 02: The Games We Create
 
-{{< /tabs >}}
+We believe games aren’t just played; they are inspiring. When players sit on a park bench in our game to just sit in the music playing in the background and think about the story, we want them to feel the care we’ve poured into every part of every episode; who knows, maybe we can even inspire you to think differently. In a world where it’s easier to be hateful, we don’t want to have to explain to you what the right choice, we want you to come up with your own conclusions, see the actions you choose have real-time consequences, and hopefully our games can make you explore deeper truths.
+
+---
+
+## 03: The Feels We Stir
+
+Our games are deeply human at their core. We put in the research: where is a character from? What music do they like? What makes them “human”? We want players to feel connected to our stories in their own way. Our worlds are built from familiar places, familiar feelings, small moments that carry weight, shaped by time and lived history. Step into our characters’ shoes and experience something recognizable, even in the extraordinary. 
+
+---
+
+## 04: A United Team With A Vision
+
+We are a collective force, shaped by leadership teams, big ideas, and the ability to listen to each other objectively, while still walking the same path. Directions change, but the vision remains. We are a team that cares deeply, builds intentionally, and lives honestly. In a world where entry-level gaming industry jobs are muddled with layoffs, poor leadership, and siloed ideas, we are shaking up the industry and investing in our own future.
+
+---

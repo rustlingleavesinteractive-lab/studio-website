@@ -1,7 +1,7 @@
 ---
 title: "Dev Log 2: Introduction the Trotson Radio"
 layout: "simple"
-date: "2026-06-11"
+date: "2026-06-25"
 showAuthor: false
 showDate: true
 tags: ["devlog", "dear-yesterday", "trotson-radio", "music"]
