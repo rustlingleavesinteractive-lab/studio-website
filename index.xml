@@ -163,13 +163,51 @@ data-zoom-src="https://www.rustlingleavesgames.com/devlog/devlog-5/images/dl5_1.
 &lt;style&gt;.centered-figure img { margin-left: auto; margin-right: auto; }&lt;/style&gt;
 &lt;p&gt;Dearest Community,&lt;/p&gt;
 &lt;p&gt;Naming is one of the earliest product decisions devs encounter, yet it’s often based on brainstorming sessions and internal votes.&lt;/p&gt;
-&lt;p&gt;At Rustling Leaves Games, we’ve decided to treat it like any other product decision: define reasons, validate them with real-life players, and make the final choice using evidence rather than intuition. Of course we would have a biased opinion; we’re the ones making the game!&lt;/p&gt;</description></item><item><title>About Us</title><link>https://www.rustlingleavesgames.com/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.rustlingleavesgames.com/about/</guid><description>&lt;p&gt;&lt;strong&gt;Together, we build heartfelt, immersive experiences that let players step into unfamiliar lives, explore deeper truths, and feel part of something bigger.&lt;/strong&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 class="relative group"&gt;01: How It All Started
-&lt;div id="01-how-it-all-started" class="anchor"&gt;&lt;/div&gt;
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
-&lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#01-how-it-all-started" aria-label="Anchor"&gt;#&lt;/a&gt;
-&lt;/span&gt;
+&lt;p&gt;At Rustling Leaves Games, we’ve decided to treat it like any other product decision: define reasons, validate them with real-life players, and make the final choice using evidence rather than intuition. Of course we would have a biased opinion; we’re the ones making the game!&lt;/p&gt;</description></item><item><title/><link>https://www.rustlingleavesgames.com/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.rustlingleavesgames.com/about/</guid><description>&lt;link href="https://www.rustlingleavesgames.com/shortcodes/hero.min.0ca40096662c8d102071b92b33d2149c5c3f9ff3269aaeb95206ea520e1e97b7.css" rel="stylesheet"&gt;
+&lt;div class="hero"&gt;
+&lt;div class="hero-title container mx-auto prose"&gt;
+&lt;h2 class="text-4xl"&gt;
+About Us
 &lt;/h2&gt;
-&lt;p&gt;Our studio started with one BIG idea: what if we built an indie game studio of artists, developers, and musicians who work on a shared project where transparency and flexibility aren&amp;rsquo;t optional-they&amp;rsquo;re the standard. A studio where moms, recent layoffs, veterans, and entry-level people who are willing to learn together, make decisions together, and share responsibility can lean on each other and build on our collective strengths. This studio was created for people who are willing to learn, step outside their comfort zone, and try something new while being supported by an entire team.&lt;/p&gt;</description></item></channel></rss>
+&lt;/div&gt;
+&lt;div class="hero-subtitle container mx-auto prose"&gt;
+&lt;div class="lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl"&gt;
+&lt;strong&gt;Together, we build heartfelt, immersive experiences that let players step into unfamiliar lives, explore deeper truths, and feel part of something bigger.&lt;/strong&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;link href="https://www.rustlingleavesgames.com/shortcodes/tabs/tabs.min.24b6a86d67c8cb7373e2a72b14448d6b6c5bda8056f456a54e00e455385bfe1a.css" rel="stylesheet"&gt;
+&lt;div class="tabs" data-tabs&gt;
+&lt;div class="tabs-header"&gt;
+&lt;button data-tab-button&gt;01: How It All Started&lt;/button&gt;
+&lt;button data-tab-button&gt;02: The Games We Create&lt;/button&gt;
+&lt;button data-tab-button&gt;03: The Feels We Stir&lt;/button&gt;
+&lt;button data-tab-button&gt;04: A United Team With A Vision&lt;/button&gt;
+&lt;/div&gt;
+&lt;div class="tabs-body"&gt;
+&lt;div class="tab-panel" data-tab-panel&gt;
+&lt;div class="tab-panel-content"&gt;
+&lt;div class="tab-panel-mobile-title"&gt;01: How It All Started&lt;/div&gt;
+&lt;div class="tab-panel-body"&gt;Our studio started with one BIG idea: what if we built an indie game studio of artists, developers, and musicians who work on a shared project where transparency and flexibility aren&amp;rsquo;t optional-they&amp;rsquo;re the standard. A studio where moms, recent layoffs, veterans, and entry-level people who are willing to learn together, make decisions together, and share responsibility can lean on each other and build on our collective strengths. This studio was created for people who are willing to learn, step outside their comfort zone, and try something new while being supported by an entire team.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="tab-panel" data-tab-panel&gt;
+&lt;div class="tab-panel-content"&gt;
+&lt;div class="tab-panel-mobile-title"&gt;02: The Games We Create&lt;/div&gt;
+&lt;div class="tab-panel-body"&gt;We believe games aren’t just played; they are inspiring. When players sit on a park bench in our game to just sit in the music playing in the background and think about the story, we want them to feel the care we’ve poured into every part of every episode; who knows, maybe we can even inspire you to think differently. In a world where it’s easier to be hateful, we don’t want to have to explain to you what the right choice, we want you to come up with your own conclusions, see the actions you choose have real-time consequences, and hopefully our games can make you explore deeper truths.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="tab-panel" data-tab-panel&gt;
+&lt;div class="tab-panel-content"&gt;
+&lt;div class="tab-panel-mobile-title"&gt;03: The Feels We Stir&lt;/div&gt;
+&lt;div class="tab-panel-body"&gt;Our games are deeply human at their core. We put in the research: where is a character from? What music do they like? What makes them “human”? We want players to feel connected to our stories in their own way. Our worlds are built from familiar places, familiar feelings, small moments that carry weight, shaped by time and lived history. Step into our characters’ shoes and experience something recognizable, even in the extraordinary.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="tab-panel" data-tab-panel&gt;
+&lt;div class="tab-panel-content"&gt;
+&lt;div class="tab-panel-mobile-title"&gt;04: A United Team With A Vision&lt;/div&gt;
+&lt;div class="tab-panel-body"&gt;We are a collective force, shaped by leadership teams, big ideas, and the ability to listen to each other objectively, while still walking the same path. Directions change, but the vision remains. We are a team that cares deeply, builds intentionally, and lives honestly. In a world where entry-level gaming industry jobs are muddled with layoffs, poor leadership, and siloed ideas, we are shaking up the industry and investing in our own future.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item></channel></rss>
