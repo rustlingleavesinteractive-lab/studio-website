@@ -25,7 +25,7 @@
   weight = 2
 
 [[main]]
-  name = "Dear Yesterday"
+  name = "Project Vertex"
   url = "/creations/dear-yesterday/"
   parent = "Creations"
   weight = 1

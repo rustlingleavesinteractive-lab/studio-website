@@ -1,5 +1,5 @@
 ---
-title: "Dear Yesterday"
+title: "Project Vertex"
 layout: "simple"
 date: "2026-06-11"
 showDate: false
@@ -16,7 +16,7 @@ showDate: false
 
 ## About This Game
 
-**Dear Yesterday** is a four-part episodic coming-of-age game shown through the imaginative eyes of a ten-year-old in a fictional suburb inspired by France's Bretagne region, during the 1990s.
+**Project Vertex** is a four-part episodic coming-of-age game shown through the imaginative eyes of a ten-year-old in a fictional suburb inspired by France's Bretagne region, during the 1990s.
 
 Alexandre Lyon is ten years old, and their world, just like the town, is getting smaller by the season. Fewer kids are in the neighborhood, weird things are happening in the apartment, fears turn into living enemies, and strange neighbors are moving in next door. The one consistent thing in their life is Grandpa’s fantastical stories. Stories that blend reality and help them rediscover imagination that will set them on a path of understanding and acceptance.
 
