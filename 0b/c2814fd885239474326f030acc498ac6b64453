@@ -1,0 +1,40 @@
+content/_index.md
+  s_85d256af6459b1::t_79c8359969daa0 1-13
+content/devlog/devlog-4/index.md
+  s_85d256af6459b1::t_79c8359969daa0 7
+content/devlog/devlog-1-introduction/index.md
+  s_85d256af6459b1::t_79c8359969daa0 1-58
+config/_default/menus.en.toml
+  s_85d256af6459b1::t_79c8359969daa0 28
+content/devlog/devlog-2-trotson-radio/index.md
+  s_85d256af6459b1::t_79c8359969daa0 7,20
+content/devlog/devlog-5/index.md
+  s_85d256af6459b1::t_79c8359969daa0 7
+content/creations/dear-yesterday/_index.md
+  s_85d256af6459b1::t_79c8359969daa0 1-45
+content/devlog/devlog-3-narrative-design/index.md
+  s_85d256af6459b1::t_79c8359969daa0 2,7
+content/about/index.md
+  s_85d256af6459b1::t_6b9475772b5181 6,11,15-16,19,23
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "0bc2814fd885239474326f030acc498ac6b64453",
+  "prompts": {},
+  "humans": {
+    "h_2afe91ba523f0a": {
+      "author": "Constantin Balan <35816870+ConstantinBalan@users.noreply.github.com>"
+    }
+  },
+  "sessions": {
+    "s_85d256af6459b1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "36dbdc4b-9cf3-489e-99e2-a11fd27d6750",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Constantin Balan <35816870+ConstantinBalan@users.noreply.github.com>"
+    }
+  }
+}
