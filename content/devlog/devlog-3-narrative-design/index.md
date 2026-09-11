@@ -1,10 +1,10 @@
 ---
-title: "Dev Log 3: Sculpting Words: Narrative Design of Dear Yesterday"
+title: "Dev Log 3: Sculpting Words: Narrative Design of Project Vertex"
 layout: "simple"
 date: "2026-07-16"
 showAuthor: false
 showDate: true
-tags: ["devlog", "dear-yesterday", "narrative"]
+tags: ["devlog", "project-vertex", "narrative"]
 weight: 3
 ---
 

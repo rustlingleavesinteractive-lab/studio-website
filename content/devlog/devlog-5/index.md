@@ -4,7 +4,7 @@ layout: "simple"
 date: "2026-09-10"
 showAuthor: false
 showDate: true
-tags: ["devlog", "dear-yesterday"]
+tags: ["devlog", "project-vertex"]
 weight: 5
 ---
 

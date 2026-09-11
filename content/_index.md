@@ -10,5 +10,5 @@ showHeader: false
 >}}
 
 {{< button href="/creations/dear-yesterday/" >}}
-Discover our first game — Dear Yesterday
+Discover our first game — Project Vertex
 {{< /button >}}
